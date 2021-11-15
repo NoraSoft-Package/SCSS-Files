@@ -1,0 +1,6 @@
+@mixin dFlex($fd: row, $jc: space-between) {
+  display: flex;
+  flex-direction: $fd;
+  flex-wrap: wrap;
+  justify-content: $jc;
+}

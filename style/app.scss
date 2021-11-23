@@ -1,2 +1,7 @@
-@import "init";
+// we use helpers for get the _index.scss file to use it here
+// we use _index.scss in any file we want if we need that
+@use "helpers" as h;
+// that is the file we need for write the codes of our app
 @import "pages/app";
+// -------------- ~ This system is maked by @use & @forward please don't forget that ~ -------------
+// this vide explain @use & @forward ~ https://www.youtube.com/watch?v=CR-a8upNjJ0&t=422s ~

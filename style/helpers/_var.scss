@@ -1,10 +1,14 @@
-// colors
-$mainColor: 000000;
-$secondaryColor: 000000;
-$thirdColor: 000000;
-$darkColor: 000000;
+// \/ -------------------- ~ Variables ~ ---------------------- \/
+// ------------ ~ colors ~ ----------
+$main_color: #eee;
+$secondary_color: 000000;
+$third_color: 000000;
+$dark_color: rgba(black, 0.3);
 
-// sizes
+// ------------ ~ sizes ~ ----------
 $marings: 20px;
 $paddings: 20px;
-$fontSize: 20px;
+$font_size: 20px;
+
+// ------------ ~ fonts ~ ----------
+$main_font: serif;

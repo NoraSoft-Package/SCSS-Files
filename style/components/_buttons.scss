@@ -1,0 +1,11 @@
+// we must use @use in this system
+@use "../helpers/var";
+
+// this button is for example to explain the @use 
+.button {
+  background-color: var.$mainColor;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+// you can remove it if you want

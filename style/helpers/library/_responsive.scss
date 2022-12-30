@@ -1,0 +1,28 @@
+// Mobile Screens
+@media #{mob} {
+  .icon-button {
+    cursor: auto;
+  }
+}
+
+// Small Screens
+@media #{sm} {
+  .cards-parent {
+    justify-content: center;
+  }
+}
+
+// Medium Screens
+@media #{md} {
+  section.container {
+    width: $medium-screens - ($container-padding * 2);
+  }
+}
+
+// Large Screens
+@media #{lg} {
+  section.container {
+    width: 100%;
+    padding: 0 100px;
+  }
+}

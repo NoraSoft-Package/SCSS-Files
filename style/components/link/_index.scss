@@ -1,0 +1,9 @@
+.link {
+  font-weight: $medium-font;
+  font-size: $tiny-text;
+  padding-bottom: 3px;
+
+  &:hover {
+    border-bottom: 1px solid rgba(black, 0.4);
+  }
+}

@@ -1,0 +1,32 @@
+.icon-button {
+  background-color: transparent;
+  padding: 4px 20px;
+}
+
+.block {
+  display: block !important;
+}
+
+.disappear {
+  opacity: 0 !important;
+}
+
+.go-right {
+  transform: translateX(100vw);
+}
+
+.z-on {
+  z-index: 99;
+}
+
+.z-hide {
+  z-index: -1;
+}
+
+.z-normal {
+  z-index: 0;
+}
+
+.bold {
+  font-weight: $bold-font !important;
+}

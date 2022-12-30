@@ -1,0 +1,40 @@
+$low: 15px;
+$medium: 25px;
+$large: 50px;
+
+.mt-low {
+  margin-top: $low;
+}
+.mt-m {
+  margin-top: $medium;
+}
+.mt-l {
+  margin-top: $large;
+}
+.mb-low {
+  margin-bottom: $low;
+}
+.mb-m {
+  margin-bottom: $medium;
+}
+.mb-l {
+  margin-left: $large;
+}
+.mr-low {
+  margin-right: $low;
+}
+.mr-m {
+  margin-right: $medium;
+}
+.mr-l {
+  margin-right: $large;
+}
+.ml-low {
+  margin-left: $low;
+}
+.ml-m {
+  margin-left: $medium;
+}
+.ml-l {
+  margin-left: $large;
+}

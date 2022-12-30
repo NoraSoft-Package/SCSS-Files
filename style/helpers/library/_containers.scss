@@ -1,0 +1,12 @@
+section.container {
+  margin: 50px auto;
+  padding: 0 $container-padding;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-parent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
